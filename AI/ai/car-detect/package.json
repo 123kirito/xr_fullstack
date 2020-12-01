@@ -1,0 +1,14 @@
+{
+  "name": "car-detect",
+  "version": "1.0.0",
+  "description": "- node 项目搭建\r     1.运行在后端",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xr",
+  "license": "ISC",
+  "dependencies": {
+    "baidu-aip-sdk": "^2.4.6"
+  }
+}
