@@ -1,0 +1,15 @@
+<!--小程序 腾讯系地流量入口
+京东、滴滴、美团
+小程序分享
+-->
+<!--小程序 wxml -> html
+wxss -> css
+js -> js json 配置文件
+组件 map-->
+
+<view class="map-box">
+  <map id="map" longitude="{{longitude}}"latitude="{{latitude}}" scale="14"  show-location style="width: 100%; height:100%"></map>
+</view>
+<view class="main-btn" bindtap="toScan()">
+  <text class="main-text">扫码解锁</text>
+</view>
