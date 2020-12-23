@@ -1,4 +1,17 @@
-<!-- 手机产品数据数据已经到了前端 -->
+<!-- 手机产品数据数据已经到了前端
 <view wx:for="{{phone_list}}" wx:for-item="phone" data-id="{{phone._id}}" bindtap="viewItem">
   <van-card thumb="{{phone.image}}" title="{{phone.title}}" price="{{phone.price}}"></van-card>
+</view> -->
+
+
+<!-- block 在小程序有 指令 -->
+
+<view class='floatBtn'>
+  <button 
+    size="mini" 
+    bindtap='navigatTo' 
+    type="primary"
+    open-type="getUserInfo"
+    bindgetuserinfo="getUserInfo"
+    >+</button>
 </view>
