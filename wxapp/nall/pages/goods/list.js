@@ -1,13 +1,66 @@
 // pages/goods/list.js
+const WXAPI = require('apifm-wxapi') // 调用接口
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    goods:[],
+    listType:2,
+    name:'',//搜索
+    orderBy:'',//排序条件
 
   },
+  bindinput(e){
+    this.setData({
+      name: e.detail.value
+    })
+  },
+  bindconfirm(e){
+    this.setData({
+      name: e.detail.value
+    })
+    this.search()
+  },
+  async search() {
+    wx.showLoading({ //搜索加载显示提示框
+      title: '加载中',
+    })
+    const _data = {
+      orderBy: this.data.orderBy,
+      page: 1,
+      pageSize: 20,
+    }
+    if (this.data.name) {
+      _data.k = this.data.name
+    }
+    // url /goods?k=addidas&page=1&pageSize=20
+    const res = await WXAPI.goods(_data)
+    console.log(res)
+    this.setData({
+      goods:res.data
+    })
+    wx.hideLoading()
 
+  },
+  changeShowType(){
+    if(this.data.listType==1){
+      this.setData({
+        listType:2
+      })
+    }else{
+      this.setData({
+        listType:1
+      })
+    }
+  },
+  filter(e){
+    this.setData({
+      orderBy: e.currentTarget.dataset.val
+    })
+    this.search()
+  },
   /**
    * 生命周期函数--监听页面加载
    */
