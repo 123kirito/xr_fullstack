@@ -1,5 +1,6 @@
 {
+  "navigationBarTitleText": "商品列表",
   "usingComponents": {
-    "van-sticky":"@vant/weapp/sticky/index"
+  "van-sticky":"@vant/weapp/sticky/index"
   }
 }
