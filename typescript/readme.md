@@ -5,9 +5,12 @@
     给js加上类型约定
 - stylus
     写的是ts,运行的是Js
+- 安装
+    npm i -g typescript
 
 - html 不再是html，字符串模板 ``,
 - css 不再是css  stylus/sass/less
 - js ts
 
 编译
+      tsc *.ts 或 tsc -w *.ts
