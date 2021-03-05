@@ -1,0 +1,12 @@
+{
+  "name": "nginx",
+  "version": "1.0.0",
+  "description": "docker 一台物理主机，虚拟出来很多的云服务器\r     - IP\r         124.71.174.51 ? 提供什么服务？ 可以看到网页吗？\r         浏览器域名或IP访问，https  www.baidu.com -> ip\r         centos 7.6 ? web 服务器\r         Nginx 是一个高性能的HTTP和反向代理的web服务器\r     - putty 远程 SSH 链接 华为云的服务器\r         root password\r     - web 服务  Nginx 安装\r         安装ngnix 依赖\r          yum -y install gcc  gcc-c++ autoconf pcre-devel make automake\r          yum -y install wget httpd-tools vim",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
