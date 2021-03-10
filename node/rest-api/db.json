@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": "2",
+      "title": "cccc",
+      "author": "eeee"
+    },
+    {
+      "id": "mkuMSMg"
+    },
+    {
+      "id": "TOx7N0r"
+    },
+    {
+      "id": "VEturUk"
+    },
+    {
+      "id": "1nIew8s"
+    },
+    {
+      "id": "HWIrnNg"
+    },
+    {
+      "id": "Zk2OxRC"
+    },
+    {
+      "id": "iov3mWX"
+    },
+    {
+      "id": "3",
+      "title": "阿里拼多多"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "body": "hello react",
+      "postId": "1",
+      "id": 2
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
