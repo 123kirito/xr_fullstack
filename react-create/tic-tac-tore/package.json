@@ -1,0 +1,12 @@
+{
+  "name": "tic-tac-tore",
+  "version": "1.0.0",
+  "description": "不是切页面，写组件，设计组件\r 把组件发布到npm 省市选择",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
