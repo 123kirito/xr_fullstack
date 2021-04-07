@@ -1,0 +1,50 @@
+<!--pages/wineProcess/confirmOrder.wxml-->
+<view class="container">
+    <view class="order-title">
+       <text class="order-title-a">订单号：{{order.order_no}}</text>
+       <text class="order-title-b">{{order.create_time}}</text>
+    </view>
+    <view class="order-group">
+       <view class="group-hd">商品</view>
+       <view class="group-bd">
+           <view class="good-list" wx:for="{{order.order_goods}}" wx:for-item="goodlist">
+              <image src="{{goodlist.goods_img}}" class="imgsize"></image>
+              <view class="good-text">
+                <view class="good-name">{{goodlist.goods_name}}</view>
+                 <view><text class="good-price">¥{{goodlist.goods_price}}</text><text class="good-weight">{{goodlist.goods_weight}}</text>
+                       <view class="good-num">数量：<text>{{goodlist.goods_num}}</text></view>
+                 </view>
+              </view>
+           </view>
+       </view>
+       <view class="group-ft">
+          <text class="order-main">订单总额：<text class="order-price">¥{{order.order_sum}}</text></text>
+       </view>
+    </view>
+    <navigator  url="chooseCustomer" class="address-group">
+         <view class="address-group-hd arrow-right"><text>用户(收货信息)</text></view> 
+        <view class="address-group-hd2">
+             <text>店家：</text>
+              <text>{{order.customer.customer_name}}</text>   
+         </view>
+         <view class="address-group-bd">
+             <text class="bd1">地址：{{order.customer.good_address}}</text>
+             <text class="bd2">收货人：{{order.customer.good_receiver}}</text>
+             <text class="bd3">联系电话：{{order.customer.good_phone}}</text>
+         </view>
+         </navigator>
+         
+         
+    
+    <view class="order-groups ">
+       <view class="group-info ">备注信息</view>
+      <view class="weui-cell__bd">
+            <textarea class="weui-textarea" placeholder="请在此填写备注信息"/>
+            <!-- <view class="weui-textarea-counter">0/200</view> -->
+        </view>
+    </view>   
+</view>
+<view class=" foot-box">
+  <button class="pay-box" bindtap="toPay">微信支付</button>
+</view>
+

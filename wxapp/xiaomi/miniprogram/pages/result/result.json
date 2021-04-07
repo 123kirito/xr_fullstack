@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#f8f8f8",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "支付成功",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

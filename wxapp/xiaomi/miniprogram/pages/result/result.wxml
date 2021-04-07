@@ -1,0 +1,9 @@
+<view class="title">
+  <text class="compony">上海拉扎斯信息科技有限公司</text>
+</view>
+<view class="price">
+  <text class="yang">¥5698.00</text>
+</view>
+<view class="jump">
+  <button class="complete" bindtap="done">完成</button>
+</view>

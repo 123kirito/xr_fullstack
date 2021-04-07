@@ -1,0 +1,17 @@
+<!--miniprogram/pages/orderstatus/orderstatus.wxml-->
+<view class="container">
+    <view class="order-group">
+       <view class="group-hd">订单：</view>
+       <view class="group-bd">
+           <view class="good-list" wx:for="{{order.order_goods}}" wx:for-item="goodlist">
+              <image src="{{goodlist.goods_img}}" class="imgsize"></image>
+              <view class="good-text">
+                <view class="good-name">{{goodlist.goods_name}}</view>
+                 <view><text class="good-price">¥{{goodlist.goods_price}}</text><text class="good-weight">{{goodlist.goods_weight}}</text>
+                       <view class="good-status">状态：<text>{{goodlist.goods_status}}</text></view>
+                 </view>
+              </view>
+           </view>
+       </view>
+    </view>
+</view>

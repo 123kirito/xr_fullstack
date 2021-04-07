@@ -1,0 +1,28 @@
+.title{
+  display: flex; 
+  justify-content: center;
+}
+.price{
+  display: flex; 
+  justify-content: center;
+}
+.compony{
+  padding-top: 20px;
+}
+.yang{
+  padding-top: 10px;
+  font-family: FZShuTi;
+   font-size: 40px;
+}
+.complete{
+    color: green;
+    width: 710rpx;
+    height: 100rpx;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(190, 190, 190);
+    border-radius: 8rpx;
+    margin-top: 400px;
+}

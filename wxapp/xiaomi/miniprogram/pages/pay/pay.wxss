@@ -1,0 +1,123 @@
+.container{
+  padding: 10rpx 0 10rpx 0;
+  background-color: #999;
+}
+.order-title{
+  height: 30px;
+  text-align: center;
+  margin-bottom: 10rpx;
+  background-color: white;
+ 
+}
+.order-title-a{
+  font-size: 35rpx;
+  padding-right: 15px;
+}
+.order-title-b{
+  font-size: 30rpx;
+  color: grey;
+}
+.order-group{
+  height:480rpx;
+  background-color: white;
+  padding:0 15rpx 0 15rpx;
+   margin-bottom: 10rpx;
+}
+.order-group .group.hd{
+  font-size: 35rpx;
+}
+.order-group .group-bd{
+  border-top: 1px solid grey; 
+}
+.group-bd .good-list{
+  display: flex;
+  border-bottom: 1px solid grey;
+}
+.good-text{
+  padding-top: 20rpx;
+  float: left;
+}
+.good-weight{
+  color: grey;
+  padding-left: 10rpx;
+}
+.good-price{
+  color: orange;
+}
+.imgsize{
+  float: left;
+  width: 150rpx;
+  height: 150rpx;
+}
+.good-num{
+  font-size: 30rpx;
+  color: grey;
+  float: right;
+  padding-left: 250rpx;
+}
+.group-ft{
+  float: right;
+ margin-top: 20rpx;
+}
+.order-main{
+  color: grey;
+}
+.order-price{
+  color: orange;
+}
+.address-group{
+ padding:0 15rpx 0 15rpx;
+  margin-bottom: 10rpx;
+  height:220rpx;
+  background-color: white;
+}
+.address-group-hd{
+ border-bottom: 1px solid grey;
+ margin-bottom: 15rpx;
+}
+.address-group-hd2{
+  font-size: 35rpx;
+  color: grey;
+}
+.address-group-bd{
+  font-size: 35rpx;
+  color: grey;
+
+}
+.address-group-bd .bd2{
+  text-align: left;
+  margin-left: 16px;
+}
+.address-group-bd .bd3{
+  margin-left: 25rpx;
+}
+
+.order-groups{
+  padding:0 15rpx 0 15rpx;
+  height: 300rpx;
+  background-color: white;
+}
+.group-info{
+  margin-bottom: 15rpx;
+  border-bottom: 1px solid grey;
+}
+.order-groups .weui-cell__bd{
+  font-size: 30rpx;
+}
+
+
+.foot-box{
+  height: 120rpx;
+    padding: 20rpx 0;
+    background-color: #eeeeee;
+}
+.pay-box{
+    width: 710rpx;
+    height: 100rpx;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #339933;
+    border-radius: 8rpx;
+}
