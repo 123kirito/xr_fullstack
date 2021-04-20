@@ -1,0 +1,12 @@
+{
+  "name": "myWebpack",
+  "version": "1.0.0",
+  "description": "1. 核心打包原理\r - 需要读到入口文件里面的内容\r - 分析入口文件，递归地去读取模块所依赖的文件内容，生成AST（抽象）语法树\r - 根据AST语法树，生成浏览器能运行的代码",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
