@@ -36,7 +36,7 @@ export default function MyList(list) {
           <div className="bread-div">
           <Breadcrumb>
             <Breadcrumb.Item><a href="/">首页</a></Breadcrumb.Item>
-            <Breadcrumb.Item>视频教程</Breadcrumb.Item>
+            <Breadcrumb.Item>资源分享</Breadcrumb.Item>
           </Breadcrumb>
           </div>
           <List

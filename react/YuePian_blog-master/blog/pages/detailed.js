@@ -92,9 +92,11 @@ const Detailed = (props) => {
                   <a href="/">首页</a>
                 </Breadcrumb.Item>
                 <Breadcrumb.Item>
-                  <a href="/list">视频列表</a>
+                  <a>{props.typeName}</a>
                 </Breadcrumb.Item>
-
+                <Breadcrumb.Item>
+                  <a>{props.title}</a>
+                </Breadcrumb.Item>
               </Breadcrumb>
             </div>
             <div>
